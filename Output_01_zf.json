@@ -1,0 +1,181 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "comau",
+        "comau.base_link",
+        "comau.link_1",
+        "comau.link_2",
+        "comau.link_3",
+        "comau.link_4",
+        "comau.link_5",
+        "comau.link_6",
+        "comau.flange",
+        "comau.ee_link",
+        "base",
+        "world"
+    ],
+    "assets": [
+        {
+            "id": "comau",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb",
+                    "unit": 1
+                }
+            ]
+        },
+        {
+            "id": "comau.base_link",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#base_link",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau",
+            "parentObject": "comau"
+        },
+        {
+            "id": "comau.link_1",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#link_1",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                0.235
+            ],
+            "rotation": [
+                3.1416,
+                0.0,
+                3.1416
+            ],
+            "placementRelTo": "comau.base_link",
+            "parentObject": "comau.base_link"
+        },
+        {
+            "id": "comau.link_2",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#link_2",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -0.4,
+                0.0,
+                -0.595
+            ],
+            "rotation": [
+                -1.5708,
+                1.5708,
+                0.0
+            ],
+            "placementRelTo": "comau.link_1",
+            "parentObject": "comau.link_1"
+        },
+        {
+            "id": "comau.link_3",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#link_3",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                1.175,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                -3.1416,
+                0.0,
+                1.5708
+            ],
+            "placementRelTo": "comau.link_2",
+            "parentObject": "comau.link_2"
+        },
+        {
+            "id": "comau.link_4",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#link_4",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                -0.25,
+                0.105,
+                0.0
+            ],
+            "rotation": [
+                1.5708,
+                1.5708,
+                0.0
+            ],
+            "placementRelTo": "comau.link_3",
+            "parentObject": "comau.link_3"
+        },
+        {
+            "id": "comau.link_5",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#link_5",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                0.0,
+                -1.0203
+            ],
+            "rotation": [
+                1.5708,
+                0.0,
+                1.5708
+            ],
+            "placementRelTo": "comau.link_4",
+            "parentObject": "comau.link_4"
+        },
+        {
+            "id": "comau.link_6",
+            "representations": [
+                {
+                    "file": "https://raw.githubusercontent.com/AsemShabayek/DF_01/main/comau_01_z.glb#link_6",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0.0,
+                -0.1905,
+                0.0
+            ],
+            "rotation": [
+                -1.5708,
+                -1.5708,
+                0.0
+            ],
+            "placementRelTo": "comau.link_5",
+            "parentObject": "comau.link_5"
+        },
+        {
+            "id": "comau.flange"
+        },
+        {
+            "id": "comau.ee_link"
+        },
+        {
+            "id": "base"
+        },
+        {
+            "id": "world"
+        }
+    ]
+}
