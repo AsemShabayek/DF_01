@@ -1,6 +1,10 @@
 # DF_01
-the issue is in two things 
-1- the total scale needs to be 100, but not the unit of measure scale (try scaling the main object)
-(check also the unit of each id , it can make a difference)
-2- rotations of link_3 & link_5 are not correct in the Json file as we tried two different versions of the GLB files and the same issue appeared.
-we can also try importing multiple Glb files instead of the single glb.
+there are two main errors till now
+ 
+1- the object is shown very small, it needs to be scaled up to 100 to be seen
+this can be done from: inspector >> nodes >> comau (the object to be scaled)
+(we tried to change the UnitOfMeasureScale to 0.01 & 1 & 100 but it didn't fix the issue)
+
+2- links 3 & 5 rotations in the urdf file are not coherent with the required look of the model.
+we tried to use different GLB files with different configurations and the same error happened.
+((temporarily, we tried to fix the rotations of link_3 & link_5 manually in another Json file))
