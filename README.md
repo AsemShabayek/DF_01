@@ -18,3 +18,5 @@ the manually modified json
 http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=https://raw.githubusercontent.com/AsemShabayek/DF_01/main/Output_01_y_14.json&repoMod3d
 
 
+we found out that if we all the relations are applied on the glb file , then we don't need to add positions and rotations in the json file, so now we will have two options , either make everything ready in the glb or do the relations good, this is what we are working on at the moment as the 1st thing is already done.
+
