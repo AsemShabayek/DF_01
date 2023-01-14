@@ -1,0 +1,113 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": false
+    },
+    "scene": [
+        "comau",
+        "comau.base_link",
+        "comau.link_1",
+        "comau.link_2",
+        "comau.link_3",
+        "comau.link_4",
+        "comau.link_5",
+        "comau.link_6",
+        "comau.flange",
+        "comau.ee_link",
+        "base",
+        "world"
+    ],
+    "assets": [
+
+        {
+            "id": "comau.base_link",
+            "representations": [
+                {
+                    "file": "base_link.glb",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau",
+            "parentObject": "comau"
+        },
+        {
+            "id": "comau.link_1",
+            "representations": [
+                {
+                    "file": "link_1.glb",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "base_link",
+            "parentObject": "base_link"
+        },
+        {
+            "id": "comau.link_2",
+            "representations": [
+                {
+                    "file": "link_2.glb",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau.link_1",
+            "parentObject": "comau.link_1"
+        },
+        {
+            "id": "comau.link_3",
+            "representations": [
+                {
+                    "file": "link_3.glb",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau.link_2",
+            "parentObject": "comau.link_2"
+        },
+        {
+            "id": "comau.link_4",
+            "representations": [
+                {
+                    "file": "link_4.glb",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau.link_3",
+            "parentObject": "comau.link_3"
+        },
+        {
+            "id": "comau.link_5",
+            "representations": [
+                {
+                    "file": "link_5.glb",
+                    "unit": 1
+                }
+            ],
+            "placementRelTo": "comau.link_4",
+            "parentObject": "comau.link_4"
+        },
+        {
+            "id": "comau.link_6",
+            "representations": [
+                {
+                    "file": "link_6.glb",
+                    "unit": 1
+                }
+            ],
+
+            "placementRelTo": "comau.link_5",
+            "parentObject": "comau.link_5"
+        },
+        {
+            "id": "comau.flange"
+        },
+        {
+            "id": "comau.ee_link"
+        },
+        {
+            "id": "base"
+        },
+        {
+            "id": "world"
+        }
+    ]
+}
