@@ -1,0 +1,20 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 1,
+        "Zup": false
+    },
+    "scene": [
+        "comau"
+    ],
+    "assets": [
+        {
+            "id": "comau",
+            "representations": [
+                {
+                    "file": "comau_01_y.glb",
+                    "unit": 1
+                }
+            ]
+        }
+    ]
+}
