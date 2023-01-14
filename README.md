@@ -20,3 +20,8 @@ http://ec2-54-174-51-194.compute-1.amazonaws.com/vebjs/?inputscene=https://raw.g
 
 we found out that if we all the relations are applied on the glb file , then we don't need to add positions and rotations in the json file, so now we will have two options , either make everything ready in the glb or do the relations good, this is what we are working on at the moment as the 1st thing is already done.
 
+I can try changing the positions , angles , angle of export and the Zup value, let's see what our options will be,
+
+what have been done
+
+
